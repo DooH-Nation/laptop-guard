@@ -1,0 +1,9 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.laptopguard.companion'
+    compileSdk 34
+    defaultConfig { applicationId 'com.laptopguard.companion'; minSdk 31; targetSdk 34; versionCode 200; versionName '2.0-test'; testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner' }
+    buildTypes { debug { debuggable true }; release { minifyEnabled false } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { androidTestImplementation 'androidx.test:runner:1.6.2'; androidTestImplementation 'androidx.test.ext:junit:1.2.1'; implementation 'com.google.android.gms:play-services-code-scanner:16.1.0' }

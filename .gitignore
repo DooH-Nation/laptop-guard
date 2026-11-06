@@ -1,0 +1,9 @@
+__pycache__/
+work/
+*.spec
+android/.gradle/
+android/local.properties
+android/app/build/
+android/app/src/androidTest/assets/vector.json
+*.jks
+*.keystore
